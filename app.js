@@ -38,7 +38,7 @@ app.post('/', function(req, res){
       headers: {
         "Authorization":"slateef39 6b6565a09615f31f68d664180859d03a-us4"
       },
-    body: jsonData
+    // body: jsonData
   }
 
   request(options, function(error, response, body ){
